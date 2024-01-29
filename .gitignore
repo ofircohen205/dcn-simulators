@@ -25,17 +25,17 @@ experiments/
 floodns-basic-sim.jar
 NetBench.jar
 
-runs/**/logs*/
-runs/**/shared_memory_*.json
-runs/**/connection_comparison.txt
-runs/**/job_comparison.txt
-cdfs/**/*.cdf
-plots/**/*.png
+floodns/runs/**/logs*/
+floodns/runs/**/shared_memory_*.json
+floodns/runs/**/connection_comparison.txt
+floodns/runs/**/job_comparison.txt
+**/cdfs/**/*.cdf
+**/plots/**/*.png
 
-experiments/**/logs*/
-experiments/**/shared_memory_*.json
-experiments/**/flow_comparison.txt
-experiments/**/job_comparison.txt
+netbench/experiments/**/logs*/
+netbench/experiments/**/shared_memory_*.json
+netbench/experiments/**/flow_comparison.txt
+netbench/experiments/**/job_comparison.txt
 
 examples/
 remote/
