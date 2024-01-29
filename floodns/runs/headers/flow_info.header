@@ -1,0 +1,1 @@
+flow_id,source_node_id,dest_node_id,PATH,start_time,end_time,duration,amount_sent,average_bandwidth,metadata

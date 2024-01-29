@@ -1,0 +1,1 @@
+connection_id,source_node_id,dest_node_id,total_size,amount_sent,FLOW_LIST,start_time,end_time,duration,average_bandwidth,COMPLETED,metadata
