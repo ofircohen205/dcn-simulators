@@ -1,0 +1,14 @@
+|V|=8
+|E|=8
+ToRs=incl_range(0,3)
+Servers=set(4,5,6,7)
+Switches=set()
+
+0 4
+4 0
+3 5
+5 3
+0 6
+6 0
+3 7
+7 3

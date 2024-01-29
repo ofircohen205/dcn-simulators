@@ -1,0 +1,13 @@
+# Topology:
+
+
+|V|=22
+|E|=4
+ToRs=incl_range(0,19)
+Servers=set(20,21)
+Switches=set()
+
+0 20
+20 0
+19 21
+21 19

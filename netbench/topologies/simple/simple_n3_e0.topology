@@ -1,0 +1,9 @@
+# Topology:
+# 0  1  2
+#
+
+|V|=3
+|E|=0
+ToRs=set(0,1,2)
+Servers=set()
+Switches=set()

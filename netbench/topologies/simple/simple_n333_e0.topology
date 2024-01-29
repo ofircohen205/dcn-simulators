@@ -1,0 +1,8 @@
+# Topology:
+
+
+|V|=333
+|E|=0
+ToRs=incl_range(0,332)
+Servers=incl_range(0,332)
+Switches=set()

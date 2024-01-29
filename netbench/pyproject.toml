@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "netbench-optimize-dnn-traffic"
+version = "0.1.0"
+description = ""
+authors = ["Ofir Cohen <ofir.cohen205@cs.huji.ac.il>"]
+readme = "README.md"
+packages = [{ include = "netbench-optimize-dnn-traffic" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.6.2"
+flake8 = "^6.0.0"
+black = "^22.12.0"
+pyyaml = "^6.0"
+mypy = "^0.991"
+pytest = "^7.2.1"
+setuptools = "^67.6.1"
+typer = { extras = ["all"], version = "^0.9.0" }
+pandas = "^2.0.3"
+networkx = "^3.1"
+ruff = "^0.0.282"
+ipykernel = "^6.25.1"
+seaborn = "^0.12.2"
+gurobipy = "^10.0.3"
+graphtheory = "^1.0.1"
+pulp = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+ignore_missing_imports = true
